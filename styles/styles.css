@@ -3,6 +3,10 @@ body {
     padding: 0px;
 }
 
+header {
+    display: flex;
+}
+
 .main {
     width: 1170px;
     padding-left: 15px;

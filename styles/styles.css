@@ -91,6 +91,51 @@ header {
     flex-wrap: wrap;
 }
 
+.slider-info {
+    position: absolute;
+    margin-top: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 1140px;
+}
+
+.slider-img {
+    display: flex;
+    height: 90px;
+}
+
+.slider-line1 {
+    font-family: Lato;
+    font-size: 60px;
+    line-height: 42px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #222222;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.slider-line2 {
+    font-family: Lato;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #222222;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pink-text {
+    color: #f16d7f;
+}
+
 .button-pink {
     background-color: #f16d7f;
     color: #ffffff;
@@ -228,4 +273,40 @@ header {
     justify-content: center;
     margin: 0 auto;
     display: flex;
+}
+
+.banner-offer {
+    display: flex;
+}
+
+.banner-details {
+    background-color: #222224;
+    color: #ececec;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-detail {
+    width: 300px;
+    display: flex;
+}
+
+.banner-text-p {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+}
+
+.detail-txt {
+    margin-left: 30px;
+}
+
+.banner-detail-img {
+    height: fit-content;
+    margin-top: 20px;
 }
